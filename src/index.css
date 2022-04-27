@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#footer{
+  height: 100px;
+}
+
+.details-view{
+  display: block;
+  margin-left: 15px;
+}
+
+.details-view tr td:nth-child(1)::after {
+  content: ":";
+}
+
+.details-view tr td:nth-child(1) {
+  text-align: start;
+  font-weight: lighter;
+}
+
+.details-view tr td:nth-child(2) {
+  text-align: start;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+
+.coin-avatar, .coin-avatar-table{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coin-avatar img,.coin-avatar-table img{
+  margin-right: 10px;
+}
+
+.coin-avatar span{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.market-value{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  row-gap: 1px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.market-value label{
+  font-size: small;
+  font-weight: lighter;
+}
+
+.market-value span{
+  font-size: large;
+  font-weight: bold;
+}
+
+.description{
+  clear: both;
+  display: block;
+  margin-top: 20px;
+}
+
+.description h2{
+  margin-bottom: 0px;
+}
+
+.description p{
+  margin-top: 5px;
+}
+
+.description h2, .description p{
+  text-align: start;
+  margin-left: 15px;
+}
+
+.coin-display img{
+  margin-left: 10px;
+}
