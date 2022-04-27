@@ -14,7 +14,9 @@ export const DetailList = (props) =>{
 
     return (
         <table className="details-view">
+            <tbody>
             {detailsView}
+            </tbody>
         </table>
     );
 };
